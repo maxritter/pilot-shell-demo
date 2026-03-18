@@ -18,7 +18,7 @@
 
 ## What Is This?
 
-This repository is a **live demo** of what [Pilot Shell](https://github.com/maxritter/pilot-shell) can do. It showcases an Awesome Task Board app that was:
+This repository is a **demo** of what [Pilot Shell](https://github.com/maxritter/pilot-shell) can do. It showcases an Awesome Task Board app that was:
 
 1. **Created from scratch** with a single prompt — full Kanban board with drag-and-drop, CRUD, SQLite persistence
 2. **Extended with 3 features in parallel** — each one-shotted by Pilot Shell's `/spec` command, built simultaneously in isolated git worktrees
@@ -29,25 +29,6 @@ Every line of code — from database schema to UI components to tests — was pl
 
 > **Claude Code is powerful. Pilot makes it reliable.**
 > Tests enforced. Context preserved. Quality automated.
-
-## The Demo
-
-<p align="center">
-  <a href="https://youtu.be/S7faAK931NU">
-    <img src="https://img.youtube.com/vi/S7faAK931NU/maxresdefault.jpg" alt="Watch the Pilot Shell Demo" width="700">
-  </a>
-</p>
-
-<p align="center">
-  <a href="https://youtu.be/S7faAK931NU"><b>Watch the full demo on YouTube</b></a>
-</p>
-
-This demo was recorded live and shows all three features being built in real-time using Pilot Shell's `/spec` workflow — each one-shotted with zero manual code edits:
-
-- `/spec` plans the feature, explores the codebase, writes a detailed spec
-- After human approval, it implements with strict TDD (red-green-refactor)
-- Automated verification: type checking, linting, tests, code review agents, E2E testing
-- All 3 features built **in parallel** using git worktrees — each on its own isolated branch, merged to main after verification
 
 ## Features
 
@@ -216,24 +197,10 @@ All 3 features were built in parallel — each in its own git worktree on a dedi
 
 ## Try Pilot Shell
 
-Want to build something like this yourself? Pilot Shell works with **any existing project** — install it, run `/sync` to learn your codebase, then use `/spec` to plan and implement features with full TDD and automated verification.
+Want to build something like this yourself? Pilot Shell works with **any existing project** — install it, run `/setup-rules` to learn your codebase, then use `/spec` to plan and implement features with full TDD and automated verification.
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/maxritter/pilot-shell/main/install.sh | bash
 ```
 
 **[Pilot Shell on GitHub](https://github.com/maxritter/pilot-shell)** — Structured spec-driven development for Claude Code with TDD, automated verification, and git worktree isolation.
-
----
-
-## Workshops & Enterprise Adoption
-
-Pilot Shell is built by [Max Ritter](https://www.maxritter.net/), a senior IT freelancer and consultant from Germany. Max helps companies and enterprises adopt Claude Code and Pilot Shell for production-grade AI-assisted development.
-
-**What's on offer:**
-
-- **Agentic Engineering Workshops** — Hands-on training for development teams on Claude Code, Pilot Shell, and spec-driven AI development
-- **Enterprise Rollout** — Guidance on introducing and rolling out Pilot Shell across your organization, including custom rules, team vaults, and quality guardrails
-- **Consulting** — Architecture reviews, workflow optimization, and best practices for AI-assisted development at scale
-
-**Get in touch:** [mail@maxritter.net](mailto:mail@maxritter.net)
